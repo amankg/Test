@@ -10,7 +10,7 @@ int main(int argc, char** argv)
     timespec ts;
     clock_gettime(CLOCK_REALTIME, &ts);
 
-    printf("Time22: %ld Timespec t: %ld us: %ld", time, ts.tv_sec, ts.tv_nsec);
+    printf("Time: %ld Timespec t: %ld us: %ld", time, ts.tv_sec, ts.tv_nsec);
 
     return 0;
 }
